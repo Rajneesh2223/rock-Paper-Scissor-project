@@ -1,0 +1,64 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard > div {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    width: 50px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .options > button {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .options > button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .result {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
